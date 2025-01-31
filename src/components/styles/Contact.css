@@ -1,0 +1,121 @@
+/* .contact {
+  padding: 100px 20px;
+  text-align: center;
+    background-color: #f9f9f9;
+
+  }
+  
+  .contact h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form button {
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+   */
+
+   .contact {
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text for better readability */
+    padding-top: 100px;
+  }
+  
+  .contact h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact ul li span {
+    font-size: 16px;
+  }
+  
+  .contact ul li .fw-bold {
+    color: #007bff; /* Highlighting the labels (Email, Phone) */
+  }
+  
+  .contact ul li i {
+    color: #007bff; /* Icon color */
+  }
+  
+  .social-icons .fs-4 {
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons .fs-4:hover {
+    color: #007bff;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .contact-form button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .contact h2 {
+      font-size: 24px;
+    }
+    .contact ul li {
+      font-size: 16px;
+    }
+  }
+  
