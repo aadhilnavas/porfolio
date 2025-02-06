@@ -49,14 +49,13 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="btn btn-primary ms-lg-3"
-                 href="/AADHILNEWCV.pdf"
-            download="Aadhil_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+             <a
+               className="btn btn-primary ms-lg-3"
+               href="https://drive.google.com/file/d/1tCtFXwM9cJgJJhOz281nHveF2ECg_SbI/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               >
-                Download CV
+                View CV
               </a>
             </li>
           </ul>

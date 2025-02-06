@@ -1,50 +1,4 @@
-// import React from 'react';
-// import './styles/FeaturedSection.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-// const FeaturedSection = () => {
-//   return (
-//     <section className="featured-box" id="home">
-//       <div className="featured-text">
-//         <div className="featured-text-card">
-//           <span>Aadhil Navas</span>
-//         </div>
-//         <div className="featured-name">
-//           <p>I'm a developer<span className="typedText"></span></p>
-//         </div>
-//         <div className="featured-text-info">
-//           <p>Experienced frontend developer with a passion for creating visually stunning
-//              and user-friendly websites.
-//           </p>
-//         </div>
-//         <div className="featured-text-btn">
-//           <button className="btn blue-btn">Hire Me</button>
-//           <button className="btn">Download CV <i className="uil uil-file-alt"></i></button>
-//         </div>
-//         <div className="social_icons">
-//           <div className="icon"><i className="uil uil-instagram"></i></div>
-//           <div className="icon"><i className="uil uil-linkedin-alt"></i></div>
-//           <div className="icon"><i className="uil uil-dribbble"></i></div>
-//           <div className="icon"><i className="uil uil-github-alt"></i></div>
-//         </div>
-//       </div>
-//       <div className="featured-image">
-//         <div className="image">
-//           <img src="https://avatars.githubusercontent.com/u/85219718?s=400&u=0477ac9cd21eb8264f4536d5ea987d2e2b5f3d27&v=4" alt="avatar" />
-//         </div>
-//       </div>
-//       <div className="scroll-icon-box">
-//         <a href="#about" className="scroll-btn">
-//           <i className="uil uil-mouse-alt"></i>
-//           <p>Scroll Down</p>
-//         </a>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default FeaturedSection;
 import React from 'react';
 import './styles/FeaturedSection.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -72,8 +26,7 @@ const FeaturedSection = () => {
             Hire Me
           </a>
           <a
-            href="/AADHILNEWCV.pdf"
-            download="Aadhil_Resume.pdf"
+             href="https://drive.google.com/file/d/1tCtFXwM9cJgJJhOz281nHveF2ECg_SbI/view?usp=sharing"  
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-light btn-lg"

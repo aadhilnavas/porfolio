@@ -1,46 +1,4 @@
-// import React from 'react';
-// import './styles/Projects.css'; // Style for Projects component
 
-// const Projects = () => {
-//   return (
-//     <section className="projects" id="projects">
-//       <h2 className="section-title">My Projects</h2>
-//       <div className="project-list">
-//         {/* Project 1 */}
-//         <div className="project">
-//           <img 
-//             src="https://via.placeholder.com/300x200" 
-//             alt="Project 1" 
-//             className="project-image" 
-//           />
-//           <div className="project-info">
-//             <h3>Project Title 1</h3>
-//             <p>Description of the project goes here. You can explain the technologies used and the goal of the project.</p>
-//             <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-//           </div>
-//         </div>
-
-//         {/* Project 2 */}
-//         <div className="project">
-//           <img 
-//             src="https://via.placeholder.com/300x200" 
-//             alt="Project 2" 
-//             className="project-image" 
-//           />
-//           <div className="project-info">
-//             <h3>Project Title 2</h3>
-//             <p>Description of the project goes here. You can explain the technologies used and the goal of the project.</p>
-//             <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-//           </div>
-//         </div>
-
-//         {/* Add more projects here */}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
 
 import React from 'react';
 import './styles/Projects.css';
@@ -63,6 +21,15 @@ const Projects = () => {
       technologies: ["Express.js", "Node.js", "MongoDB"],
       link: "#",
     },
+
+    {
+      title: "Health Tracker",
+      description:
+        "Developed a fitness tracking app with an interactive dashboard, real-time updates, and responsive design.",
+      technologies: ["Angular 19", "CSS", "TypeScript", "HTML","Bootstrap"],
+      link: "https://health-tracker-xi-three.vercel.app/",
+    },
+
     {
       title: "2D Face Recognition in Airport Security",
       description:

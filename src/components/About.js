@@ -30,6 +30,7 @@ const About = () => {
           <li>Node.js</li>
           <li>MongoDB</li>
           <li>Express JS</li>
+          <li>Angular</li>
           <li>Visual Studio</li>
           <li>Sublime Text</li>
           <li>MS office</li>
